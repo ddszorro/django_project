@@ -13,6 +13,7 @@ django-allauth = "*"
 django-environ = "*"
 django-cryptographic-fields = "*"
 django-taggit = "*"
+markdown = "*"
 
 [requires]
 python_version = "3.8"
