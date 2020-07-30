@@ -12,6 +12,7 @@ django-crispy-forms = "*"
 django-allauth = "*"
 django-environ = "*"
 django-cryptographic-fields = "*"
+django-taggit = "*"
 
 [requires]
 python_version = "3.8"

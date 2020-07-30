@@ -14,6 +14,7 @@ COPY Pipfile Pipfile.lock requirements.txt /code/
 RUN pip install -r requirements.txt
 RUN pip install django-cryptographic-fields
 RUN pip install cryptography
+RUN pip install django-taggit
 
 # Copy project
 COPY . /code/
